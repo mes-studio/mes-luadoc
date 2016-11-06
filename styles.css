@@ -1,0 +1,93 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 25px;
+    background-color: #efefef;
+}
+
+body * {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #585858;
+}
+
+.documentationWrap {
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px 2px rgba(171, 171, 171, 0.34);
+}
+
+.file {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #2a8ec7;
+}
+
+.file .fileTitle {
+    margin-bottom: 10px;
+}
+
+.file .fileTitle div {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 20px;
+    border-bottom: 1px solid red;
+    cursor: pointer;
+    padding: 0px 1px;
+}
+
+.file .contentList {
+    padding-left: 25px;
+}
+
+.file .contentList > div {
+    margin-bottom: 5px;
+}
+
+.file .contentList > .item {
+
+}
+
+.file .contentList > .item .name {
+    cursor: pointer;
+}
+
+.file .contentList > .item .top {
+    display: table;
+}
+
+.file .contentList > .item .top > div{
+    display: table-cell;
+}
+
+.file .contentList > .item .top .name{
+    min-width: 200px;
+    max-width: 400px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.file .contentList > .item .top .brief{
+
+}
+
+.file .contentList > .item .params {
+    display: table;
+}
+
+.file .contentList > .item .params {
+    padding-left: 25px;
+}
+
+.file .contentList > .item .params .item > div{
+    display: table-cell;
+}
+
+.file .contentList > .item .params .name {
+    min-width: 200px;
+    max-width: 400px;
+    font-weight: 600;
+}
