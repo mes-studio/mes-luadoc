@@ -1,6 +1,6 @@
 {
     "name": "mes-luadoc",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "MES(Metal evolution studio) Lua documentation",
     "homepage": "https://github.com/mes-studio/mes-luadoc#mes-luadoc",
     "keywords": [
