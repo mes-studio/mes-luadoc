@@ -1,6 +1,6 @@
 {
     "name": "mes-luadoc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "MES(Metal evolution studio) Lua documentation",
     "main": "index.js",
     "scripts": {
