@@ -2,6 +2,20 @@
     "name": "mes-luadoc",
     "version": "1.0.4",
     "description": "MES(Metal evolution studio) Lua documentation",
+    "homepage": "https://github.com/mes-studio/mes-luadoc#mes-luadoc",
+    "keywords": [
+    	"Lua documentation",
+    	"lua doc",
+    	"luadoc",
+    	"generate lua doc",
+    	"generate lua documentation",
+    	"npm lua doc",
+    	"npm lua documentation",
+    	"npm luadoc",
+    	"nodejs lua doc",
+    	"nodejs lua documentation",
+    	"nodejs luadoc"
+    ],
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
