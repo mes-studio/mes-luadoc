@@ -14,7 +14,15 @@ exports.MesLuaDoc = function(luaProjectPath) {
 
     fs.mkdirSync(docsDirectory);
 
-    let styles = fs.readFileSync(`./styles.css`, 'UTF-8');;
+    let stylesPath = `./styles.css`;
+    let styles;
+
+    if (fs.existsSync(stylesPath)) {
+        styles = fs.readFileSync(stylesPath, 'UTF-8');
+    } else {
+        styles = fs.readFileSync(`./node_modules/mes-luadoc/styles.css`, 'UTF-8');
+    }
+
     let htmlTopCode = `
 <html>
     <head>
