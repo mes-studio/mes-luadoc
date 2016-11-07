@@ -20,6 +20,10 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "MES Studio",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mes-studio/mes-luadoc.git"
+    },
     "license": "ISC"
 }
